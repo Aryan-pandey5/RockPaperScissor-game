@@ -1,0 +1,98 @@
+body{
+  /* background-image: url(back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav{
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  margin: 0px;
+  padding-top:11px ;
+}
+
+.imgs-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 60%;
+  padding-top: 20px;
+  
+}
+
+
+#Rock{
+  transition-property: all;
+  background-image: url(1.jpg);
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+   border-radius: 50%;
+  margin: 20px;
+  border: 2px solid black;
+   background-size: cover;
+}
+#Paper{
+  transition-property: all;
+  background-image: url(2nd.jpg); 
+  width: 200px;
+  height: 200px;
+   border-radius: 50%;
+  margin: 20px;
+  border: 2px solid black;
+   background-size: cover;
+    object-fit: cover;
+}
+#Scissors{
+  transition-property: all;
+  background-image: url(3rd.jpg); 
+  width: 200px;
+  height: 200px;
+   border-radius: 50%;
+  margin: 20px;
+  border: 2px solid black;
+   background-size: cover;
+    object-fit: cover;
+}
+
+#Rock:hover, #Paper:hover, #Scissors:hover{
+  transform: scale(1.1);
+ border: 10px solid black;
+}
+
+
+.score{
+   margin-top: 80px;
+  text-align: center;
+  
+}
+
+.msg-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:11px ;
+}
+
+#msg{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: pink;
+  width: 25%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 10px;
+}
